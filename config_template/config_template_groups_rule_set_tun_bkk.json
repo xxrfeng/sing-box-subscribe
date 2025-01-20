@@ -384,9 +384,6 @@
       "type":"selector",
       "outbounds":[
         "{all}"
-      ],
-      "filter":[
-        {"action":"include","keywords":"家"}
       ]
     },
     {
