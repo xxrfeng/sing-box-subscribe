@@ -379,6 +379,16 @@
       "interval": "10m",
       "tolerance": 50
     },
+      {
+      "tag":"home",
+      "type":"selector",
+      "outbounds":[
+        "{all}"
+      ],
+      "filter":[
+        {"action":"exclude","keywords":["家"]}
+      ]
+    },
     {
       "type": "direct",
       "tag": "direct"
@@ -412,6 +422,10 @@
       {
         "rule_set": "geosite-category-ads-all",
         "outbound": "AdBlock"
+      },
+      {
+        "ip_cidr": ["172.31.1.0/24"],
+        "outbound": "home"
       },
       {
         "clash_mode": "direct",
