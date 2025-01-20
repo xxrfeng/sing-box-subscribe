@@ -386,7 +386,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["家"]}
+        {"action":"include","keywords":"家"}
       ]
     },
     {
