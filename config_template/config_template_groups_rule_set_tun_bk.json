@@ -382,9 +382,9 @@
       {
       "tag":"home",
       "type":"selector",
-      "outbounds":[],
+      "outbounds":["{all}"],
       "filter":[
-        {"action":"include","keywords":["家"]}
+        {"action":"exclude","keywords":["家"]}
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
