@@ -359,10 +359,7 @@
     {
       "tag":"home",
       "type":"selector",
-      "outbounds":["{all}"],
-      "filter":[
-        {"action":"include","keywords":["家|test"]}
-      ]
+      "outbounds":["{all}"]
     },
     {
       "tag":"Others",
