@@ -359,7 +359,9 @@
     {
       "tag":"home",
       "type":"selector",
-      "outbounds":["{all}"]
+      "outbounds":[
+        "{all}"
+      ]
     },
     {
       "tag":"Others",
