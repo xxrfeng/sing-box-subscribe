@@ -381,6 +381,13 @@
         ]
       },
       {
+        "tag":"home",
+        "type":"selector",
+        "outbounds":[
+          "{all}"
+        ]
+      }, 
+      {
         "tag":"Others",
         "type":"selector",
         "outbounds":[
@@ -402,14 +409,7 @@
         "url": "http://www.gstatic.com/generate_204",
         "interval": "10m",
         "tolerance": 50
-      },
-      {
-        "tag":"home",
-        "type":"selector",
-        "outbounds":[
-          "{all}"
-        ]
-      },    
+      },   
       {
         "type": "direct",
         "tag": "direct"
