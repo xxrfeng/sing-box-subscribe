@@ -386,8 +386,11 @@
         "type":"selector",
         "outbounds":[
           "{all}"
+        ],
+        "filter":[
+          {"action":"include","keywords":["家|home|Home"]}
         ]
-      }, 
+      },
       {
         "tag":"Others",
         "type":"selector",
