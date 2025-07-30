@@ -230,7 +230,8 @@
           "TaiWan",
           "Singapore",
           "Japan",
-          "America"
+          "America",
+          "Others"
         ],
         "default": "Japan"
       },
